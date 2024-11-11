@@ -1,0 +1,75 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4; /* Color de fondo */
+    color: #333; /* Color del texto */
+}
+
+/* Estilos para el header */
+header {
+    background-color: #1e3a6e; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto en el encabezado */
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header .logo img {
+    width: 100px; /* Tamaño del logo */
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+/* Estilos para las secciones "About", "Services" y "Contact" */
+.about, .services, .contact {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about h2, .services h2, .contact h2 {
+    color: #1e3a6e; /* Color del encabezado en cada sección */
+    margin-bottom: 1rem;
+}
+
+.services ul {
+    list-style: none; /* Sin viñetas */
+    padding: 0;
+}
+
+.services ul li {
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+    color: #555; /* Color del texto en la lista */
+}
+
+.contact address p {
+    margin: 0.5rem 0;
+    color: #555; /* Color de texto en la sección de contacto */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1e3a6e; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto en el pie de página */
+    font-size: 0.9rem;
+}
